@@ -717,6 +717,10 @@ footer .footer-main .footer-main-div .button{
         font-size: 20px;
     }
 
+    header .header-text .header-main .header-main-list ul li{
+        padding-right: 2px;
+    }
+
     header .header-text .header-main .header-main-list ul li::before{
         margin-right: 6px;
     }
@@ -824,8 +828,8 @@ footer .footer-main .footer-main-div .button{
 
 }
 
-@media only screen and (max-width: 400px),
-       only screen and (max-device-width: 400px){
+@media only screen and (max-width: 410px),
+       only screen and (max-device-width: 410px){
 
     header .header-text .header-main .header-main-list ul{
         font-size: 16px;
