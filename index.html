@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/main.css">
+    <title>Demjanov test</title>
+</head>
+<body>
+    <header>
+        <div class="header-text">
+            <nav>
+                <div class="header-logo">
+                    <a href="#">ROUTS</a>
+                </div>
+                <div class="header-links">
+                    <a href="#screen-1">EDGE</a>
+                    <a href="#screen-2">ORDER</a>
+                    <a href="#screen-3">REVIEWS</a>
+                </div>
+            </nav>
+            <div class="header-main">
+                <h1>
+                    Norway tours
+                    at steep prices
+                </h1>
+                <div class="header-main-list">
+                    <div>take the benefit in time</div>
+                    <ul>
+                        <li>up to <span>$10 000</span> cost</li>
+                        <li><span>30%</span> will be back</li>
+                        <li>from <span>17%</span> discount for the future</li>
+                    </ul>
+                </div>
+                <a class="button" href="#screen-2">ORDER</a>
+            </div>
+        </div>
+        <div class="header-img"></div>
+    </header>
+
+    <main>
+        <section id="screen-1" class="screen-1">
+            <div class="screen-1-img"></div>
+            <div class="screen-1-list">
+                <ul>
+                    
+                    <li>Norway's natural beauty attracts visitors from all over the world.</li>
+                    <li>Norway is a country with stunning nature, fjords and the northern lights.</li>
+                    <li>Norway offers a wide range of activities for tourists, from exploring the fjords to visiting the capital city Oslo.</li>
+                    <li>In Norway there are many opportunities for outdoor activities: hiking, fishing, skiing.</li>
+                </ul>
+
+                <a class="button" href="#screen-2">ORDER</a>
+
+            </div>
+            <div class="screen-1-img-last"></div>
+        </section>
+
+        <section id="screen-2" class="screen-2">
+            <div class="screen-2-form">
+                <div class="screen-2-form-header">
+                    Leave <br> a request
+                </div>
+                <form id="form">
+                    <input [name='name'] type="text" id="input-name" placeholder="Name">
+                    <input [name='email'] type="email" id="input-email" placeholder="E-mail">
+                    <div class="form-checkbox">
+                        <input type="checkbox" name="check" id="check">
+                        <label for="check">I accept Privacy policy</label>
+                    </div>
+
+                    <button class="disabled" disabled id="button-form" type="submit">SUBMIT FORM</button>
+                </form>
+            </div>
+            <div class="screen-2-img"></div>
+        </section>
+
+        <section id="screen-3" class="screen-3">
+            <div class="slider">
+                <div id="slides" class="slides">
+                    <div class="slide">
+                        <div class="user">
+                            <img src="static/1.jpg" alt="1">
+                            <p>Name Name</p>
+                        </div>
+                        <div>
+                            <p>Norway is perfect for nature lovers! The fjords, mountains, and waterfalls were stunning. We spent most days hiking and exploring the countryside. The fjord cruise in Geirangerfjord was breathtaking, with crystal-clear waters and towering cliffs. Bergen's colorful houses and fish market were delightful. Yes, Norway is pricey, but the beauty and peacefulness are worth it. Staying in cozy cabins helped with costs, and the views were amazing. If you’re seeking adventure and tranquility, Norway is the place to go. Already planning my next visit!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider-btn">
+                <button id="prev"></button>
+                <div id="dotted-slides">
+                    
+                </div>
+                <button id="next"></button>
+            </div>
+        </section>
+
+        
+    </main>
+
+    <footer>
+        <nav>
+            <a href="#screen-1">EDGE</a>
+            <a href="#screen-2">ORDER</a>
+            <a href="#screen-3">REVIEWS</a>
+        </nav>
+        <div class="footer-main"> 
+            <div class="footer-main-div">
+                <a class="logo" href="#">ROUTS</a>
+                <div>© 2024, Copyright.</div>
+            </div>
+            <div class="footer-main-div">
+                <div class="social-icons">
+                    <a href="#">
+                        <img src="static/social-1.svg" alt="social-1">
+                    </a>
+                    <a href="#">
+                        <img src="static/social-2.svg" alt="social-2">
+                    </a>
+                    <a href="#">
+                        <img src="static/social-3.svg" alt="social-3">
+                    </a>
+                    <a href="#">
+                        <img src="static/social-4.svg" alt="social-4">
+                    </a>
+                    <a href="#">
+                        <img src="static/social-5.svg" alt="social-5">
+                    </a>
+                    <a href="#">
+                        <img src="static/social-6.svg" alt="social-6">
+                    </a>
+                </div>
+                <div>Privacy policy</div>
+            </div>
+            <div class="footer-main-div">
+
+                <a class="button" href="#screen-2">ORDER</a>
+
+                <div style="text-align: right;">Terms of Use</div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
